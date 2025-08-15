@@ -81,7 +81,7 @@ library BlsBaseDSSLib {
         return operators;
     }
 
-    ///@notice checks whether the paring is successful. i.e. the signature is valid
+    ///@notice checks whether the pairing is successful. i.e. the signature is valid
     ///@param g1Key the public key on G1 field
     ///@param g2Key the public key on G2 field
     ///@param sign the signature on G1 field
