@@ -106,7 +106,7 @@ library BN254 {
         BN254.G1Point memory p2n = p;
         // value of most significant bit
         uint16 m = 1;
-        // index of most significant bit
+        // index of the most significant bit
         uint8 i = 0;
 
         //loop until we reach the most significant bit
