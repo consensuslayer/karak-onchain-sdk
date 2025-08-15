@@ -42,7 +42,7 @@ abstract contract BaseDSS is IBaseDSS {
         virtual
         onlyCore
     {
-        // Removes the vault from the state if operator initiates a unstake request.
+        // Removes the vault from the state if operator initiates an unstake request.
         if (!newStake.toStake) baseDssOpStatePtr(operator).removeVault(newStake.vault);
     }
 
